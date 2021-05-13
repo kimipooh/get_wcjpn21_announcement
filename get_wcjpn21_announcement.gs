@@ -1,6 +1,6 @@
 // Google Chat の WebHookを指定（指定した名前のスレッドで投稿される）
 var chat_webhook_url = 'WebHook URLを入れる';
-var rss_url = 'RSS (ATOM) の URL を入れる';
+var rss_url = 'https://japan.wordcamp.org/2021/feed/atom'; // RSS (ATOM) の URL を入れる 
 
 function onMessage(){
   // RSSを取得（ATOM用）
